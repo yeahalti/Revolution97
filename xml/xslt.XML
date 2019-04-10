@@ -1,0 +1,659 @@
+<html>
+   <body>
+      <style>
+    @font-face {
+font-family: BrandonGrotesqueRegular;
+font-style: normal;
+font-weight: normal;
+src: url('font/BrandonGrotesqueRegular.otf') format('opentype');
+}
+        
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+    //background: rgba(45, 23, 49, 1.0);
+//background: -webkit-linear-gradient(top right, rgba(45, 23, 49, 1.0), rgba(0, 0, 0, 1.0));
+//background: -moz-linear-gradient(top right, rgba(45, 23, 49, 1.0), rgba(0, 0, 0, 1.0));
+//background: linear-gradient(top right, rgba(45, 23, 49, 1.0), rgba(0, 0, 0, 1.0));
+  background: -webkit-linear-gradient(45deg, #49a09d, #5f2c82);
+background: linear-gradient(45deg, #49a09d, #5f2c82);
+font-family: BrandonGrotesqueRegular;
+  font-weight: 100;
+}
+h2{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table {
+     
+  position: relative;
+  left: 15%;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: center;
+
+}
+thead th {
+  background-color: rgba(60, 75, 139, 1.0);
+ //background-color: rgba(45, 23, 49, 1);
+}
+        @media screen and (min-width:850px){
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}}
+ .basic {
+        background-color: rgba(13, 191, 217, 0.6);
+         }
+.special {
+        background-color: rgba(49, 208, 85, 0.5);
+        }
+.premium {
+        background-color: rgba(201, 77, 101, 0.5);
+
+        }
+        
+    
+@media screen and (max-width: 1500px) {
+table {
+        left: 0%;
+width: auto !important;
+}
+
+table-wrap {
+overflow-x: auto;-webkit-overflow-scrolling: touch;
+}
+}    
+ 
+        /*
+	Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+	*/
+	@media
+	  only screen 
+    and (max-width: 850px), (min-device-width: 768px) 
+    and (max-device-width: 1024px)  {
+
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr {
+			display: block;
+		}
+
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+
+    tr {
+      margin: 0 0 1rem 0;
+    }
+      
+    tr:nth-child(odd) {
+     
+    }
+    
+		td {
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee;
+			position: relative;
+			padding-left: 50%;
+		}
+
+		td:before {
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 0;
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: nowrap;
+		}
+
+		/*
+		Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+		*/
+		td:nth-of-type(1):before { content: "Sr no"; }
+		td:nth-of-type(2):before { content: "Item"; }
+		td:nth-of-type(3):before { content: "Quantity"; }
+		td:nth-of-type(4):before { content: "Unit"; }
+		td:nth-of-type(5):before { content: "Amount"; }
+		td:nth-of-type(6):before { content: "Rate"; }
+		td:nth-of-type(7):before { content: "Amount"; }
+		td:nth-of-type(8):before { content: "Rate"; }
+		td:nth-of-type(9):before { content: "Amount"; }
+		td:nth-of-type(10):before { content: "Rate"; }
+	}
+        
+    </style>
+      <h2>Quotations</h2>
+      <div class="container">
+         <table border="1">
+            <thead>
+               <tr>
+                  <th/>
+                  <th/>
+                  <th/>
+                  <th/>
+                  <th colspan="2" class="premium">PREMIUM</th>
+                  <th colspan="2" class="special">SPECIAL</th>
+                  <th colspan="2" class="basic">BASIC</th>
+               </tr>
+               <tr>
+                  <th>Sr no</th>
+                  <th>Item</th>
+                  <th>Quantity</th>
+                  <th>Unit</th>
+                  <th class="premium">Rate</th>
+                  <th class="premium">Amount</th>
+                  <th class="special">Rate</th>
+                  <th class="special">Amount</th>
+                  <th class="basic">Rate</th>
+                  <th class="basic">Amount</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td>I.</td>
+                  <td>FURNITURE &amp; FURNISHING</td>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td>a</td>
+                  <td>TYPICAL LIVING ROOM - 12ft x 18ft</td>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Main door as per design</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">70000</td>
+                  <td class="premium">70000</td>
+                  <td class="special">55000</td>
+                  <td class="special">55000</td>
+                  <td class="basic">45000</td>
+                  <td class="basic">45000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Sofa seating - 3 seater</td>
+                  <td>7</td>
+                  <td>Rft</td>
+                  <td class="premium">5500</td>
+                  <td class="premium">38500</td>
+                  <td class="special">4950</td>
+                  <td class="special">34650</td>
+                  <td class="basic">4500</td>
+                  <td class="basic">31500</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Sofa seating - 2 seater</td>
+                  <td>5</td>
+                  <td>Rft</td>
+                  <td class="premium">5500</td>
+                  <td class="premium">27500</td>
+                  <td class="special">4950</td>
+                  <td class="special">24750</td>
+                  <td class="basic">4500</td>
+                  <td class="basic">22500</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Sofa seating - 1 seater</td>
+                  <td>3.25</td>
+                  <td>Rft</td>
+                  <td class="premium">5500</td>
+                  <td class="premium">17875</td>
+                  <td class="special">4950</td>
+                  <td class="special">16088</td>
+                  <td class="basic">4500</td>
+                  <td class="basic">14625</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Large Center Table 3ft x 3ft</td>
+                  <td>9</td>
+                  <td>Rft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">40500</td>
+                  <td class="special">3750</td>
+                  <td class="special">33750</td>
+                  <td class="basic">3000</td>
+                  <td class="basic">27000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Corner Table - 2ft x 2ft</td>
+                  <td>4</td>
+                  <td>Sft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">18000</td>
+                  <td class="special">3750</td>
+                  <td class="special">15000</td>
+                  <td class="basic">3000</td>
+                  <td class="basic">12000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Dining Table for 4 persons - 3.5 ft x 3.5 ft</td>
+                  <td>12.3</td>
+                  <td>Rft</td>
+                  <td class="premium">4000</td>
+                  <td class="premium">49000</td>
+                  <td class="special">3000</td>
+                  <td class="special">36750</td>
+                  <td class="basic">1900</td>
+                  <td class="basic">23275</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Dining Chairs</td>
+                  <td>4</td>
+                  <td>Nos</td>
+                  <td class="premium">8000</td>
+                  <td class="premium">32000</td>
+                  <td class="special">6500</td>
+                  <td class="special">26000</td>
+                  <td class="basic">5000</td>
+                  <td class="basic">20000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Low &amp; long Entertainment Unit - 4ft long x 18" ht. x 18" deep</td>
+                  <td>6</td>
+                  <td>Sft</td>
+                  <td class="premium">4000</td>
+                  <td class="premium">24000</td>
+                  <td class="special">3600</td>
+                  <td class="special">21600</td>
+                  <td class="basic">3000</td>
+                  <td class="basic">18000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td>b</td>
+                  <td>TYPICAL BED ROOM - 12ft x 15ft -1 nos</td>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Double bed 5ft wide x 6.75ft long</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">55000</td>
+                  <td class="premium">55000</td>
+                  <td class="special">42000</td>
+                  <td class="special">42000</td>
+                  <td class="basic">28000</td>
+                  <td class="basic">28000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Headboard</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">25000</td>
+                  <td class="premium">25000</td>
+                  <td class="special">15000</td>
+                  <td class="special">15000</td>
+                  <td class="basic">9000</td>
+                  <td class="basic">9000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Double bed Mattress</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">33000</td>
+                  <td class="premium">33000</td>
+                  <td class="special">25000</td>
+                  <td class="special">25000</td>
+                  <td class="basic">15000</td>
+                  <td class="basic">15000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Bedside tables</td>
+                  <td>2</td>
+                  <td>Nos</td>
+                  <td class="premium">24000</td>
+                  <td class="premium">48000</td>
+                  <td class="special">19000</td>
+                  <td class="special">38000</td>
+                  <td class="basic">12750</td>
+                  <td class="basic">25500</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Wardrobe - 6ft long x 7ft height</td>
+                  <td>42</td>
+                  <td>Sft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">189000</td>
+                  <td class="special">3600</td>
+                  <td class="special">151200</td>
+                  <td class="basic">2950</td>
+                  <td class="basic">123900</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Study Table - 2ft deep x 4ft long</td>
+                  <td>8</td>
+                  <td>Sft</td>
+                  <td class="premium">4750</td>
+                  <td class="premium">38000</td>
+                  <td class="special">4000</td>
+                  <td class="special">32000</td>
+                  <td class="basic">3500</td>
+                  <td class="basic">28000</td>
+               </tr>
+               <tr bgcolor="orange">
+                  <td/>
+                  <td>Wallpaper / texture highlight on one wall</td>
+                  <td>200</td>
+                  <td>Sft</td>
+                  <td class="premium">245</td>
+                  <td class="premium">49000</td>
+                  <td class="special">175</td>
+                  <td class="special">35000</td>
+                  <td class="basic">125</td>
+                  <td class="basic">25000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Study Chair</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">8000</td>
+                  <td class="premium">8000</td>
+                  <td class="special">4750</td>
+                  <td class="special">4750</td>
+                  <td class="basic">3900</td>
+                  <td class="basic">3900</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Bedroom  Door</td>
+                  <td>1</td>
+                  <td>No</td>
+                  <td class="premium">48000</td>
+                  <td class="premium">48000</td>
+                  <td class="special">42000</td>
+                  <td class="special">42000</td>
+                  <td class="basic">38000</td>
+                  <td class="basic">38000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td>c </td>
+                  <td>TYPICAL KITCHEN - 8ft x lOft</td>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Shutters below working platform - 8ft long + 6ft long x 2.5ft ht.</td>
+                  <td>35</td>
+                  <td>Sft</td>
+                  <td class="premium">1400</td>
+                  <td class="premium">49000</td>
+                  <td class="special">1200</td>
+                  <td class="special">42000</td>
+                  <td class="basic">1100</td>
+                  <td class="basic">38500</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Drawers below working platform</td>
+                  <td>5</td>
+                  <td>Nos</td>
+                  <td class="premium">6500</td>
+                  <td class="premium">32500</td>
+                  <td class="special">5500</td>
+                  <td class="special">27500</td>
+                  <td class="basic">4500</td>
+                  <td class="basic">22500</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Wall cabinets above working platform  - 8ft long + 6ft long x 2.Sft ht.</td>
+                  <td>35</td>
+                  <td>Sft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">157500</td>
+                  <td class="special">3600</td>
+                  <td class="special">126000</td>
+                  <td class="basic">2800</td>
+                  <td class="basic">98000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Sliding door to kitchen</td>
+                  <td>1</td>
+                  <td>Nos</td>
+                  <td class="premium">48000</td>
+                  <td class="premium">48000</td>
+                  <td class="special">42000</td>
+                  <td class="special">42000</td>
+                  <td class="basic">38000</td>
+                  <td class="basic">38000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Full ht. storage unit - 2ft wide x 7ft ht.</td>
+                  <td>14</td>
+                  <td>Sft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">63000</td>
+                  <td class="special">3600</td>
+                  <td class="special">50400</td>
+                  <td class="basic">2950</td>
+                  <td class="basic">41300</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td>d</td>
+                  <td>MISCELLANOUS - for a 1bh k A12t</td>
+                  <td/>
+                  <td/>
+                  <td class="premium"/>
+                  <td class="premium"/>
+                  <td class="special"/>
+                  <td class="special"/>
+                  <td class="basic"/>
+                  <td class="basic"/>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Bathroom wall cabinets with sliding mirrored shutters - 5ft long x 2ft ht</td>
+                  <td>10</td>
+                  <td>Sft</td>
+                  <td class="premium">2400</td>
+                  <td class="premium">24000</td>
+                  <td class="special">2100</td>
+                  <td class="special">21000</td>
+                  <td class="basic">1900</td>
+                  <td class="basic">19000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Bathroom acrylic false ceiling with aluminium framework - 4ft x 8ft - 2 nos</td>
+                  <td>32</td>
+                  <td>Sft</td>
+                  <td class="premium">275</td>
+                  <td class="premium">8800</td>
+                  <td class="special">275</td>
+                  <td class="special">8800</td>
+                  <td class="basic">275</td>
+                  <td class="basic">8800</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Bathroom doors - 2 nos</td>
+                  <td>2</td>
+                  <td>No</td>
+                  <td class="premium">45000</td>
+                  <td class="premium">90000</td>
+                  <td class="special">40000</td>
+                  <td class="special">80000</td>
+                  <td class="basic">36000</td>
+                  <td class="basic">72000</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Passage Unit - 6ft long x 2.5ft ht.- lno</td>
+                  <td>15</td>
+                  <td>Sft</td>
+                  <td class="premium">4500</td>
+                  <td class="premium">67500</td>
+                  <td class="special">3600</td>
+                  <td class="special">54000</td>
+                  <td class="basic">2950</td>
+                  <td class="basic">44250</td>
+               </tr>
+               <tr>
+                  <td/>
+                  <td>Big Curtain lOft long x 7.Sft height - 2 nos</td>
+                  <td>2</td>
+                  <td>No</td>
+                  <td class="premium">24000</td>
+                  <td class="premium">48000</td>
+                  <td class="special">19000</td>
+                  <td class="special">38000</td>
+                  <td class="basic">9000</td>
+                  <td class="basic">18000</td>
+               </tr>
+               <tr bgcolor="orange">
+                  <td/>
+                  <td>Painting the entire Apartment of 800 Sft</td>
+                  <td>3000</td>
+                  <td>Sft</td>
+                  <td class="premium">24</td>
+                  <td class="premium">72000</td>
+                  <td class="special">20</td>
+                  <td class="special">60000</td>
+                  <td class="basic">19</td>
+                  <td class="basic">57000</td>
+               </tr>
+               <tr bgcolor="orange">
+                  <td/>
+                  <td>Painting the box grills outside the 3 big windows -12ft wide x 6ft ht. x 2ft deep each</td>
+                  <td>648</td>
+                  <td>Sft</td>
+                  <td class="premium">24</td>
+                  <td class="premium">15552</td>
+                  <td class="special">20</td>
+                  <td class="special">12960</td>
+                  <td class="basic">19</td>
+                  <td class="basic">12312</td>
+               </tr>
+               <tr bgcolor="orange">
+                  <td/>
+                  <td>POP wall renedering for entire apartment walls</td>
+                  <td>2400</td>
+                  <td>Sft</td>
+                  <td class="premium">25</td>
+                  <td class="premium">60000</td>
+                  <td class="special">25</td>
+                  <td class="special">60000</td>
+                  <td class="basic">25</td>
+                  <td class="basic">60000</td>
+               </tr>
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>

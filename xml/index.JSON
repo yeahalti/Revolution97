@@ -1,0 +1,368 @@
+{
+   "details": [
+      {
+         "srno": "I.",
+         "item": "FURNITURE & FURNISHING"
+      },
+      {
+         "srno": "a",
+         "item": "TYPICAL LIVING ROOM - 12ft x 18ft"
+      },
+      {
+         "item": "Main door as per design",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "70000",
+         "amount1": "70000",
+         "rate2": "55000",
+         "amount2": "55000",
+         "rate3": "45000",
+         "amount3": "45000"
+      },
+      {
+         "item": "Sofa seating - 3 seater",
+         "qty": "7",
+         "unit": "Rft",
+         "rate1": "5500",
+         "amount1": "38500",
+         "rate2": "4950",
+         "amount2": "34650",
+         "rate3": "4500",
+         "amount3": "31500"
+      },
+      {
+         "item": "Sofa seating - 2 seater",
+         "qty": "5",
+         "unit": "Rft",
+         "rate1": "5500",
+         "amount1": "27500",
+         "rate2": "4950",
+         "amount2": "24750",
+         "rate3": "4500",
+         "amount3": "22500"
+      },
+      {
+         "item": "Sofa seating - 1 seater",
+         "qty": "3.25",
+         "unit": "Rft",
+         "rate1": "5500",
+         "amount1": "17875",
+         "rate2": "4950",
+         "amount2": "16088",
+         "rate3": "4500",
+         "amount3": "14625"
+      },
+      {
+         "item": "Large Center Table 3ft x 3ft",
+         "qty": "9",
+         "unit": "Rft",
+         "rate1": "4500",
+         "amount1": "40500",
+         "rate2": "3750",
+         "amount2": "33750",
+         "rate3": "3000",
+         "amount3": "27000"
+      },
+      {
+         "item": "Corner Table - 2ft x 2ft",
+         "qty": "4",
+         "unit": "Sft",
+         "rate1": "4500",
+         "amount1": "18000",
+         "rate2": "3750",
+         "amount2": "15000",
+         "rate3": "3000",
+         "amount3": "12000"
+      },
+      {
+         "item": "Dining Table for 4 persons - 3.5 ft x 3.5 ft",
+         "qty": "12.3",
+         "unit": "Rft",
+         "rate1": "4000",
+         "amount1": "49000",
+         "rate2": "3000",
+         "amount2": "36750",
+         "rate3": "1900",
+         "amount3": "23275"
+      },
+      {
+         "item": "Dining Chairs",
+         "qty": "4",
+         "unit": "Nos",
+         "rate1": "8000",
+         "amount1": "32000",
+         "rate2": "6500",
+         "amount2": "26000",
+         "rate3": "5000",
+         "amount3": "20000"
+      },
+      {
+         "item": "Low & long Entertainment Unit - 4ft long x 18\" ht. x 18\" deep",
+         "qty": "6",
+         "unit": "Sft",
+         "rate1": "4000",
+         "amount1": "24000",
+         "rate2": "3600",
+         "amount2": "21600",
+         "rate3": "3000",
+         "amount3": "18000"
+      },
+      [],
+      {
+         "srno": "b",
+         "item": "TYPICAL BED ROOM - 12ft x 15ft -1 nos"
+      },
+      {
+         "item": "Double bed 5ft wide x 6.75ft long",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "55000",
+         "amount1": "55000",
+         "rate2": "42000",
+         "amount2": "42000",
+         "rate3": "28000",
+         "amount3": "28000"
+      },
+      {
+         "item": "Headboard",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "25000",
+         "amount1": "25000",
+         "rate2": "15000",
+         "amount2": "15000",
+         "rate3": "9000",
+         "amount3": "9000"
+      },
+      {
+         "item": "Double bed Mattress",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "33000",
+         "amount1": "33000",
+         "rate2": "25000",
+         "amount2": "25000",
+         "rate3": "15000",
+         "amount3": "15000"
+      },
+      {
+         "item": "Bedside tables",
+         "qty": "2",
+         "unit": "Nos",
+         "rate1": "24000",
+         "amount1": "48000",
+         "rate2": "19000",
+         "amount2": "38000",
+         "rate3": "12750",
+         "amount3": "25500"
+      },
+      {
+         "item": "Wardrobe - 6ft long x 7ft height",
+         "qty": "42",
+         "unit": "Sft",
+         "rate1": "4500",
+         "amount1": "189000",
+         "rate2": "3600",
+         "amount2": "151200",
+         "rate3": "2950",
+         "amount3": "123900"
+      },
+      {
+         "item": "Study Table - 2ft deep x 4ft long",
+         "qty": "8",
+         "unit": "Sft",
+         "rate1": "4750",
+         "amount1": "38000",
+         "rate2": "4000",
+         "amount2": "32000",
+         "rate3": "3500",
+         "amount3": "28000"
+      },
+      {
+         "item": "Wallpaper / texture highlight on one wall",
+         "qty": "200",
+         "unit": "Sft",
+         "rate1": "245",
+         "amount1": "49000",
+         "rate2": "175",
+         "amount2": "35000",
+         "rate3": "125",
+         "amount3": "25000"
+      },
+      {
+         "item": "Study Chair",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "8000",
+         "amount1": "8000",
+         "rate2": "4750",
+         "amount2": "4750",
+         "rate3": "3900",
+         "amount3": "3900"
+      },
+      {
+         "item": "Bedroom  Door",
+         "qty": "1",
+         "unit": "No",
+         "rate1": "48000",
+         "amount1": "48000",
+         "rate2": "42000",
+         "amount2": "42000",
+         "rate3": "38000",
+         "amount3": "38000"
+      },
+      [],
+      {
+         "srno": "c",
+         "item": "TYPICAL KITCHEN - 8ft x lOft"
+      },
+      {
+         "item": "Shutters below working platform - 8ft long + 6ft long x 2.5ft ht.",
+         "qty": "35",
+         "unit": "Sft",
+         "rate1": "1400",
+         "amount1": "49000",
+         "rate2": "1200",
+         "amount2": "42000",
+         "rate3": "1100",
+         "amount3": "38500"
+      },
+      {
+         "item": "Drawers below working platform",
+         "qty": "5",
+         "unit": "Nos",
+         "rate1": "6500",
+         "amount1": "32500",
+         "rate2": "5500",
+         "amount2": "27500",
+         "rate3": "4500",
+         "amount3": "22500"
+      },
+      {
+         "item": "Wall cabinets above working platform  - 8ft long + 6ft long x 2.Sft ht.",
+         "qty": "35",
+         "unit": "Sft",
+         "rate1": "4500",
+         "amount1": "157500",
+         "rate2": "3600",
+         "amount2": "126000",
+         "rate3": "2800",
+         "amount3": "98000"
+      },
+      {
+         "item": "Sliding door to kitchen",
+         "qty": "1",
+         "unit": "Nos",
+         "rate1": "48000",
+         "amount1": "48000",
+         "rate2": "42000",
+         "amount2": "42000",
+         "rate3": "38000",
+         "amount3": "38000"
+      },
+      {
+         "item": "Full ht. storage unit - 2ft wide x 7ft ht.",
+         "qty": "14",
+         "unit": "Sft",
+         "rate1": "4500",
+         "amount1": "63000",
+         "rate2": "3600",
+         "amount2": "50400",
+         "rate3": "2950",
+         "amount3": "41300"
+      },
+      [],
+      {
+         "srno": "d",
+         "item": "MISCELLANOUS - for a 1bh k A12t"
+      },
+      {
+         "item": "Bathroom wall cabinets with sliding mirrored shutters - 5ft long x 2ft ht",
+         "qty": "10",
+         "unit": "Sft",
+         "rate1": "2400",
+         "amount1": "24000",
+         "rate2": "2100",
+         "amount2": "21000",
+         "rate3": "1900",
+         "amount3": "19000"
+      },
+      {
+         "item": "Bathroom acrylic false ceiling with aluminium framework - 4ft x 8ft - 2 nos",
+         "qty": "32",
+         "unit": "Sft",
+         "rate1": "275",
+         "amount1": "8800",
+         "rate2": "275",
+         "amount2": "8800",
+         "rate3": "275",
+         "amount3": "8800"
+      },
+      {
+         "item": "Bathroom doors - 2 nos",
+         "qty": "2",
+         "unit": "No",
+         "rate1": "45000",
+         "amount1": "90000",
+         "rate2": "40000",
+         "amount2": "80000",
+         "rate3": "36000",
+         "amount3": "72000"
+      },
+      {
+         "item": "Passage Unit - 6ft long x 2.5ft ht.- lno",
+         "qty": "15",
+         "unit": "Sft",
+         "rate1": "4500",
+         "amount1": "67500",
+         "rate2": "3600",
+         "amount2": "54000",
+         "rate3": "2950",
+         "amount3": "44250"
+      },
+      {
+         "item": "Big Curtain lOft long x 7.Sft height - 2 nos",
+         "qty": "2",
+         "unit": "No",
+         "rate1": "24000",
+         "amount1": "48000",
+         "rate2": "19000",
+         "amount2": "38000",
+         "rate3": "9000",
+         "amount3": "18000"
+      },
+      {
+         "item": "Painting the entire Apartment of 800 Sft",
+         "qty": "3000",
+         "unit": "Sft",
+         "rate1": "24",
+         "amount1": "72000",
+         "rate2": "20",
+         "amount2": "60000",
+         "rate3": "19",
+         "amount3": "57000"
+      },
+      {
+         "item": "Painting the box grills outside the 3 big windows -12ft wide x 6ft ht. x 2ft deep each",
+         "qty": "648",
+         "unit": "Sft",
+         "rate1": "24",
+         "amount1": "15552",
+         "rate2": "20",
+         "amount2": "12960",
+         "rate3": "19",
+         "amount3": "12312"
+      },
+      {
+         "item": "POP wall renedering for entire apartment walls",
+         "qty": "2400",
+         "unit": "Sft",
+         "rate1": "25",
+         "amount1": "60000",
+         "rate2": "25",
+         "amount2": "60000",
+         "rate3": "25",
+         "amount3": "60000"
+      }
+   ]
+}

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<quot-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<details>
+		<srno>I.</srno>
+		<item>FURNITURE &amp; FURNISHING</item>
+	</details>
+	<details>
+		<srno>a</srno>
+		<item>TYPICAL LIVING ROOM - 12ft x 18ft</item>
+	</details>
+	<details>
+		<item>Main door as per design</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>70000</rate1>
+		<amount1>70000</amount1>
+		<rate2>55000</rate2>
+		<amount2>55000</amount2>
+		<rate3>45000</rate3>
+		<amount3>45000</amount3>
+	</details>
+	<details>
+		<item>Sofa seating - 3 seater</item>
+		<qty>7</qty>
+		<unit>Rft</unit>
+		<rate1>5500</rate1>
+		<amount1>38500</amount1>
+		<rate2>4950</rate2>
+		<amount2>34650</amount2>
+		<rate3>4500</rate3>
+		<amount3>31500</amount3>
+	</details>
+	<details>
+		<item>Sofa seating - 2 seater</item>
+		<qty>5</qty>
+		<unit>Rft</unit>
+		<rate1>5500</rate1>
+		<amount1>27500</amount1>
+		<rate2>4950</rate2>
+		<amount2>24750</amount2>
+		<rate3>4500</rate3>
+		<amount3>22500</amount3>
+	</details>
+	<details>
+		<item>Sofa seating - 1 seater</item>
+		<qty>3.25</qty>
+		<unit>Rft</unit>
+		<rate1>5500</rate1>
+		<amount1>17875</amount1>
+		<rate2>4950</rate2>
+		<amount2>16088</amount2>
+		<rate3>4500</rate3>
+		<amount3>14625</amount3>
+	</details>
+	<details>
+		<item>Large Center Table 3ft x 3ft</item>
+		<qty>9</qty>
+		<unit>Rft</unit>
+		<rate1>4500</rate1>
+		<amount1>40500</amount1>
+		<rate2>3750</rate2>
+		<amount2>33750</amount2>
+		<rate3>3000</rate3>
+		<amount3>27000</amount3>
+	</details>
+	<details>
+		<item>Corner Table - 2ft x 2ft</item>
+		<qty>4</qty>
+		<unit>Sft</unit>
+		<rate1>4500</rate1>
+		<amount1>18000</amount1>
+		<rate2>3750</rate2>
+		<amount2>15000</amount2>
+		<rate3>3000</rate3>
+		<amount3>12000</amount3>
+	</details>
+	<details>
+		<item>Dining Table for 4 persons - 3.5 ft x 3.5 ft</item>
+		<qty>12.3</qty>
+		<unit>Rft</unit>
+		<rate1>4000</rate1>
+		<amount1>49000</amount1>
+		<rate2>3000</rate2>
+		<amount2>36750</amount2>
+		<rate3>1900</rate3>
+		<amount3>23275</amount3>
+	</details>
+	<details>
+		<item>Dining Chairs</item>
+		<qty>4</qty>
+		<unit>Nos</unit>
+		<rate1>8000</rate1>
+		<amount1>32000</amount1>
+		<rate2>6500</rate2>
+		<amount2>26000</amount2>
+		<rate3>5000</rate3>
+		<amount3>20000</amount3>
+	</details>
+	<details>
+		<item>Low &amp; long Entertainment Unit - 4ft long x 18" ht. x 18" deep</item>
+		<qty>6</qty>
+		<unit>Sft</unit>
+		<rate1>4000</rate1>
+		<amount1>24000</amount1>
+		<rate2>3600</rate2>
+		<amount2>21600</amount2>
+		<rate3>3000</rate3>
+		<amount3>18000</amount3>
+	</details>
+	<details/>
+	<details>
+		<srno>b</srno>
+		<item>TYPICAL BED ROOM - 12ft x 15ft -1 nos</item>
+	</details>
+	<details>
+		<item>Double bed 5ft wide x 6.75ft long</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>55000</rate1>
+		<amount1>55000</amount1>
+		<rate2>42000</rate2>
+		<amount2>42000</amount2>
+		<rate3>28000</rate3>
+		<amount3>28000</amount3>
+	</details>
+	<details>
+		<item>Headboard</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>25000</rate1>
+		<amount1>25000</amount1>
+		<rate2>15000</rate2>
+		<amount2>15000</amount2>
+		<rate3>9000</rate3>
+		<amount3>9000</amount3>
+	</details>
+	<details>
+		<item>Double bed Mattress</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>33000</rate1>
+		<amount1>33000</amount1>
+		<rate2>25000</rate2>
+		<amount2>25000</amount2>
+		<rate3>15000</rate3>
+		<amount3>15000</amount3>
+	</details>
+	<details>
+		<item>Bedside tables</item>
+		<qty>2</qty>
+		<unit>Nos</unit>
+		<rate1>24000</rate1>
+		<amount1>48000</amount1>
+		<rate2>19000</rate2>
+		<amount2>38000</amount2>
+		<rate3>12750</rate3>
+		<amount3>25500</amount3>
+	</details>
+	<details>
+		<item>Wardrobe - 6ft long x 7ft height</item>
+		<qty>42</qty>
+		<unit>Sft</unit>
+		<rate1>4500</rate1>
+		<amount1>189000</amount1>
+		<rate2>3600</rate2>
+		<amount2>151200</amount2>
+		<rate3>2950</rate3>
+		<amount3>123900</amount3>
+	</details>
+	<details>
+		<item>Study Table - 2ft deep x 4ft long</item>
+		<qty>8</qty>
+		<unit>Sft</unit>
+		<rate1>4750</rate1>
+		<amount1>38000</amount1>
+		<rate2>4000</rate2>
+		<amount2>32000</amount2>
+		<rate3>3500</rate3>
+		<amount3>28000</amount3>
+	</details>
+	<details>
+		<item>Wallpaper / texture highlight on one wall</item>
+		<qty>200</qty>
+		<unit>Sft</unit>
+		<rate1>245</rate1>
+		<amount1>49000</amount1>
+		<rate2>175</rate2>
+		<amount2>35000</amount2>
+		<rate3>125</rate3>
+		<amount3>25000</amount3>
+	</details>
+	<details>
+		<item>Study Chair</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>8000</rate1>
+		<amount1>8000</amount1>
+		<rate2>4750</rate2>
+		<amount2>4750</amount2>
+		<rate3>3900</rate3>
+		<amount3>3900</amount3>
+	</details>
+	<details>
+		<item>Bedroom  Door</item>
+		<qty>1</qty>
+		<unit>No</unit>
+		<rate1>48000</rate1>
+		<amount1>48000</amount1>
+		<rate2>42000</rate2>
+		<amount2>42000</amount2>
+		<rate3>38000</rate3>
+		<amount3>38000</amount3>
+	</details>
+	<details/>
+	<details>
+		<srno>c </srno>
+		<item>TYPICAL KITCHEN - 8ft x lOft</item>
+	</details>
+	<details>
+		<item>Shutters below working platform - 8ft long + 6ft long x 2.5ft ht.</item>
+		<qty>35</qty>
+		<unit>Sft</unit>
+		<rate1>1400</rate1>
+		<amount1>49000</amount1>
+		<rate2>1200</rate2>
+		<amount2>42000</amount2>
+		<rate3>1100</rate3>
+		<amount3>38500</amount3>
+	</details>
+	<details>
+		<item>Drawers below working platform</item>
+		<qty>5</qty>
+		<unit>Nos</unit>
+		<rate1>6500</rate1>
+		<amount1>32500</amount1>
+		<rate2>5500</rate2>
+		<amount2>27500</amount2>
+		<rate3>4500</rate3>
+		<amount3>22500</amount3>
+	</details>
+	<details>
+		<item>Wall cabinets above working platform  - 8ft long + 6ft long x 2.Sft ht.</item>
+		<qty>35</qty>
+		<unit>Sft</unit>
+		<rate1>4500</rate1>
+		<amount1>157500</amount1>
+		<rate2>3600</rate2>
+		<amount2>126000</amount2>
+		<rate3>2800</rate3>
+		<amount3>98000</amount3>
+	</details>
+	<details>
+		<item>Sliding door to kitchen</item>
+		<qty>1</qty>
+		<unit>Nos</unit>
+		<rate1>48000</rate1>
+		<amount1>48000</amount1>
+		<rate2>42000</rate2>
+		<amount2>42000</amount2>
+		<rate3>38000</rate3>
+		<amount3>38000</amount3>
+	</details>
+	<details>
+		<item>Full ht. storage unit - 2ft wide x 7ft ht.</item>
+		<qty>14</qty>
+		<unit>Sft</unit>
+		<rate1>4500</rate1>
+		<amount1>63000</amount1>
+		<rate2>3600</rate2>
+		<amount2>50400</amount2>
+		<rate3>2950</rate3>
+		<amount3>41300</amount3>
+	</details>
+	<details/>
+	<details>
+		<srno>d</srno>
+		<item>MISCELLANOUS - for a 1bh k A12t</item>
+	</details>
+	<details>
+		<item>Bathroom wall cabinets with sliding mirrored shutters - 5ft long x 2ft ht</item>
+		<qty>10</qty>
+		<unit>Sft</unit>
+		<rate1>2400</rate1>
+		<amount1>24000</amount1>
+		<rate2>2100</rate2>
+		<amount2>21000</amount2>
+		<rate3>1900</rate3>
+		<amount3>19000</amount3>
+	</details>
+	<details>
+		<item>Bathroom acrylic false ceiling with aluminium framework - 4ft x 8ft - 2 nos</item>
+		<qty>32</qty>
+		<unit>Sft</unit>
+		<rate1>275</rate1>
+		<amount1>8800</amount1>
+		<rate2>275</rate2>
+		<amount2>8800</amount2>
+		<rate3>275</rate3>
+		<amount3>8800</amount3>
+	</details>
+	<details>
+		<item>Bathroom doors - 2 nos</item>
+		<qty>2</qty>
+		<unit>No</unit>
+		<rate1>45000</rate1>
+		<amount1>90000</amount1>
+		<rate2>40000</rate2>
+		<amount2>80000</amount2>
+		<rate3>36000</rate3>
+		<amount3>72000</amount3>
+	</details>
+	<details>
+		<item>Passage Unit - 6ft long x 2.5ft ht.- lno</item>
+		<qty>15</qty>
+		<unit>Sft</unit>
+		<rate1>4500</rate1>
+		<amount1>67500</amount1>
+		<rate2>3600</rate2>
+		<amount2>54000</amount2>
+		<rate3>2950</rate3>
+		<amount3>44250</amount3>
+	</details>
+	<details>
+		<item>Big Curtain lOft long x 7.Sft height - 2 nos</item>
+		<qty>2</qty>
+		<unit>No</unit>
+		<rate1>24000</rate1>
+		<amount1>48000</amount1>
+		<rate2>19000</rate2>
+		<amount2>38000</amount2>
+		<rate3>9000</rate3>
+		<amount3>18000</amount3>
+	</details>
+	<details>
+		<item>Painting the entire Apartment of 800 Sft</item>
+		<qty>3000</qty>
+		<unit>Sft</unit>
+		<rate1>24</rate1>
+		<amount1>72000</amount1>
+		<rate2>20</rate2>
+		<amount2>60000</amount2>
+		<rate3>19</rate3>
+		<amount3>57000</amount3>
+	</details>
+	<details>
+		<item>Painting the box grills outside the 3 big windows -12ft wide x 6ft ht. x 2ft deep each</item>
+		<qty>648</qty>
+		<unit>Sft</unit>
+		<rate1>24</rate1>
+		<amount1>15552</amount1>
+		<rate2>20</rate2>
+		<amount2>12960</amount2>
+		<rate3>19</rate3>
+		<amount3>12312</amount3>
+	</details>
+	<details>
+		<item>POP wall renedering for entire apartment walls</item>
+		<qty>2400</qty>
+		<unit>Sft</unit>
+		<rate1>25</rate1>
+		<amount1>60000</amount1>
+		<rate2>25</rate2>
+		<amount2>60000</amount2>
+		<rate3>25</rate3>
+		<amount3>60000</amount3>
+	</details>
+</quot-data>  

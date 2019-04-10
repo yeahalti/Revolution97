@@ -1,0 +1,5 @@
+http://localhost:81/dashboard/
+http://localhost:81/phpmyadmin/
+localhost:81/mysite_directory
+http://localhost:81/index.html
+http://localhost:81/cuf.html
